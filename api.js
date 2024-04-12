@@ -18,7 +18,7 @@ class JoblyApi {
   static token;
 
   static async request(endpoint, data = {}, method = "GET") {
-    const url = new URL(`${BASE_URL}${endpoint}`);
+    const url = new URL(`${BASE_URL}/${endpoint}`);
     const headers = {
       authorization: `Bearer ${JoblyApi.token}`,
       'content-type': 'application/json',
