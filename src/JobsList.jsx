@@ -1,7 +1,7 @@
 import { useState, React, useEffect } from "react";
 import JobCardList from "./JobCardList";
 import SearchForm from "./SearchForm";
-import JoblyApi from "../../api";
+import JoblyApi from "../api";
 import "./Jobs.css";
 
 /**

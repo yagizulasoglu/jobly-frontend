@@ -3,7 +3,7 @@ import { BrowserRouter, Navigate } from "react-router-dom";
 import RoutesList from "./RoutesList.jsx";
 import Navbar from "./Navbar.jsx";
 import userContext from "./userContext.js";
-import JoblyApi from "../../api.js";
+import JoblyApi from "../api.js";
 import { jwtDecode } from "jwt-decode";
 import "./App.css";
 
